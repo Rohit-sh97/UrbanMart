@@ -37,7 +37,7 @@ export default function Footer() {
         <li className="list-none font-thin text-sm">About us</li>
         <li className="list-none font-thin text-sm">Store</li>
         <li className="list-none font-thin text-sm">Career</li>
-        <li className="list-none font-thin text-sm">Patner's</li>
+        <li className="list-none font-thin text-sm">Patners</li>
         <li className="list-none font-thin text-sm">FAQ</li>
         <li className="list-none font-thin text-sm">Privacy</li>
     </div>
@@ -46,7 +46,7 @@ export default function Footer() {
         <li className="list-none font-thin text-sm">About us</li>
         <li className="list-none font-thin text-sm">Store</li>
         <li className="list-none font-thin text-sm">Career</li>
-        <li className="list-none font-thin text-sm">Patner's</li>
+        <li className="list-none font-thin text-sm">Patners</li>
         <li className="list-none font-thin text-sm">FAQ</li>
         <li className="list-none font-thin text-sm">Privacy</li>
     </div>
