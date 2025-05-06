@@ -70,7 +70,5 @@ export default function Footer() {
     </div>
 
     </div>
-
-    {/* <hr className="bg-white mt-8 mb-6"/> */}
     
 }

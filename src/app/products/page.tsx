@@ -11,17 +11,26 @@ import Sidebar from "../components/Sidebar";
 import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
 
+type Product = {
+  id: number;
+  image: string;
+  title: string;
+  price: number;
+};
+
 export default function Product() {
   const [open, setOpen] = useState(false);
   const [reopen, setreOpen] = useState(false);
   const [sidebarOpne, setSidebarOpen] = useState(false);
-  const [products, setProducts] = useState([]); 
+  const [products, setProducts] = useState<Product[]>([]); 
 
 
   useEffect(() => {
     fetch("https://fakestoreapi.com/products")
     .then((res) => res.json())
-    .then((data) => setProducts(data))
+    .then((data) => {
+      console.log(data)
+      setProducts(data)})
     .catch((err) => console.error("Failed to fetch:", err));
   }, [])
 
@@ -98,7 +107,7 @@ export default function Product() {
 </div>
 
 <div className="flex">
-<Sidebar isOpen={sidebarOpne}/>
+<Sidebar isOpen={sidebarOpne} />
 
 <div className="flex-1 flex-col p-4">
 
