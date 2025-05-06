@@ -42,11 +42,10 @@ export default function Signup() {
         />
         <button
           type="submit"
-          className="border border-gray-200 bg-white  rounded-lg py-2 px-7 m-2 hover:bg-blue-200"
+          className="border border-gray-200 bg-green-300  rounded-lg py-2 px-7 m-2 hover:bg-blue-200"
         >
           Signup
         </button>
-        <div className="py-2 px-2 rounded-lg  bg-amber-50" >Signin</div>
       </form>
     </div>
   );

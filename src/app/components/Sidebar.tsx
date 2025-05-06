@@ -1,4 +1,4 @@
-// components/Sidebar.tsx
+
 export default function Sidebar({ isOpen }: { isOpen: boolean }) {
     return (
       <div className={`w-64 p-4 bg-gray-100 space-y-4 ${isOpen ? "block" : "hidden"}`}>

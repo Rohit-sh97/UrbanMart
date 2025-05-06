@@ -1,4 +1,3 @@
-import { TURBOPACK_CLIENT_MIDDLEWARE_MANIFEST } from "next/dist/shared/lib/constants";
 
 type ProductCardProps = {
   image: string;

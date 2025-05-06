@@ -1,16 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ["fakestoreapi.com"], // Add any image domains you are using
+  },
 };
 
 export default nextConfig;
 
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   devIndicators: {
-//     buildActivityPosition: 'hidden',
-//   },
-// };
-
-// module.exports = nextConfig;
