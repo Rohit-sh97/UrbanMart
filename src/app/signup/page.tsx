@@ -46,6 +46,7 @@ export default function Signup() {
         >
           Signup
         </button>
+        <button className="bg-blue-400 p-2 rounded-lg" onClick={() => router.push("/signin")} >Sign in</button>
       </form>
     </div>
   );
