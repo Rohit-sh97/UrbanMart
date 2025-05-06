@@ -66,7 +66,7 @@ export default function Footer() {
     </div>
 
     <div className="flex justify-center mt-3">
-        <p className="font-thin text-sm p-2 ">Copyrights @ 2025 | All rights reserved</p>
+    <p className="font-thin text-sm p-2 ">Copyrights &#169; 2025 | All rights reserved</p>
     </div>
 
     </div>
